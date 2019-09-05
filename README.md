@@ -12,6 +12,8 @@
  ``` 
  Red dots indicate the occurence of lithic tools at archaeological sites at the respective time-slice (based on assemblage dates). Black dots mark abandoned sites. Since evidence is rather sparse in the first ~1.5 Ma, the animation runs fast in the beginning and becomes exponentially slower. 
  We used a <a href="https://geography.wisc.edu/maplibrary/the-robinson-projection/" target="_blank">Robinson projection</a> centered around 50°E to show a suitable trade-off between level of distortion and visual appeal. 
-  ![Fast animation of human tool use](/lithics/road_lithics3MaEXP_30sec_30fps.gif)
+  
+![Fast animation of human tool use](/lithics/road_lithics3MaEXP_30sec_30fps.gif)
+ 
  
  *Occurence of lithic tools between 3 Ma and 10 ka*
