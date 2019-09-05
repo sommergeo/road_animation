@@ -10,9 +10,10 @@
  We used a <a href="https://geography.wisc.edu/maplibrary/the-robinson-projection/" target="_blank">Robinson projection</a> centered around 50°E to show a suitable trade-off between level of distortion and visual appeal. 
  
  The associated ROAD query is: 
- '''sql
+ 
+ ```sql
  SELECT DISTINCT on (assemblage.name, locality.idlocality, locality.x, locality.y, query_age_min, query_age_max, age_comments) assemblage.name, locality.idlocality, locality.x, locality.y, query_age_min, query_age_max, age_comments FROM assemblage, locality,all_age(0,3000000) as (locality varchar,assemblage int, assemblage_name varchar,query_age_min int, query_age_max int, age_comments varchar) WHERE ((locality.idlocality = assemblage.locality_idlocality and (assemblage.category ilike '%raw material%' or assemblage.category ilike '%technology%' or assemblage.category ilike '%typology%')) and locality = assemblage.locality_idlocality and assemblage = assemblage.idassemblage) ORDER BY locality.idlocality (#: 3080)
- ''' 
+ ``` 
  ![Fast animation of humen occupation](/lithics/road_lithics3MaEXP_30sec_30fps.gif)
  
  *Occurence of lithic tools between 3 Ma and 10 ka*
