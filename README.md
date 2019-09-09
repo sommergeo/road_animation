@@ -6,10 +6,10 @@
  - <a href="/input" target="_blank">Growth of the ROAD database</a> since 2009 animated by the first creation of assemblages
  
 ## Filenames
-Filenames contain information about different versions of the same animated content. For example, `road_lithics3Ma-20ka_EXP_30sec_30fps_loop.gif` features
+Filenames contain information about different versions of the animated content. For example, the filename `road_lithics3Ma-20ka_EXP_30sec_30fps_loop.gif` features
 - project name `road_lithics`, i.e. a ROAD query, which yields lithics
 - timeframe `3Ma-20ka`, i.e. the temporal extent, that is _animated_
-- playback mode `EXP` or `LIN`. In `EXP` mode, animation lapses fast 
+- playback mode `EXP` or `LIN`. In `EXP` mode, animation starts fast and becomes gradually slower, which is favourable for animations exceeding 1.5 Ma
 - playback duration `30sec_30fps`
 - replay is flagged by `loop`
 
