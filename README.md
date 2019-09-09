@@ -15,7 +15,7 @@ Filenames contain information about different versions of the animated content. 
 
  
 ## Example
- This animation shows the occurence of lithic tools between 3 Ma and recent. The associated ROAD query is  
+ This animation shows the occurence of lithic tools between 3 Ma and 20 ka. The associated ROAD query is  
   ```sql
  SELECT DISTINCT on (assemblage.name, locality.idlocality, locality.x, locality.y, query_age_min, query_age_max, age_comments) assemblage.name, locality.idlocality, locality.x, locality.y, query_age_min, query_age_max, age_comments FROM assemblage, locality,all_age(0,3000000) as (locality varchar,assemblage int, assemblage_name varchar,query_age_min int, query_age_max int, age_comments varchar) WHERE ((locality.idlocality = assemblage.locality_idlocality and (assemblage.category ilike '%raw material%' or assemblage.category ilike '%technology%' or assemblage.category ilike '%typology%')) and locality = assemblage.locality_idlocality and assemblage = assemblage.idassemblage) ORDER BY locality.idlocality
  ``` 
