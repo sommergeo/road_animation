@@ -5,6 +5,15 @@
  - <a href="/lithics" target="_blank">Occurence of lithic tools</a> over the past 3 Ma 
  - <a href="/input" target="_blank">Growth of the ROAD database</a> since 2009 animated by the first creation of assemblages
  
+## Filenames
+Filenames contain information about different versions of the same animated content. For example, `road_lithics3Ma-20ka_EXP_30sec_30fps_loop.gif` features
+- project name `road_lithics`, i.e. a ROAD query, which yields lithics
+- timeframe `3Ma-20ka`, i.e. the temporal extent, that is _animated_
+- playback mode `EXP` or `LIN`. `EXP` is favourable for animations beyon 1.5 Ma
+- playback duration `30sec_30fps`
+- replay is flagged by `loop`
+
+ 
 ## Example
  This animation shows the occurence of lithic tools between 3 Ma and recent. The associated ROAD query is  
   ```sql
