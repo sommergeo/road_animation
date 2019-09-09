@@ -25,4 +25,4 @@ Filenames contain information about different versions of the animated content. 
 ![Fast animation of human lithic tool use](/lithics/road_lithics3Ma-20ka_EXP_30sec_30fps_loop.gif)
  
  
- *Occurence of lithic tools between 3 Ma and 10 ka*
+ *Occurence of lithic tools between 3 Ma and 20 ka*
