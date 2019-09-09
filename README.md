@@ -9,7 +9,7 @@
 Filenames contain information about different versions of the same animated content. For example, `road_lithics3Ma-20ka_EXP_30sec_30fps_loop.gif` features
 - project name `road_lithics`, i.e. a ROAD query, which yields lithics
 - timeframe `3Ma-20ka`, i.e. the temporal extent, that is _animated_
-- playback mode `EXP` or `LIN`. `EXP` is favourable for animations beyon 1.5 Ma
+- playback mode `EXP` or `LIN`. In `EXP` mode, animation lapses fast 
 - playback duration `30sec_30fps`
 - replay is flagged by `loop`
 
@@ -22,7 +22,7 @@ Filenames contain information about different versions of the same animated cont
  Red dots indicate the occurence of lithic tools at archaeological sites at the respective time-slice (based on assemblage dates). Black dots mark abandoned sites. Since evidence is rather sparse in the first ~1.5 Ma, the animation runs fast in the beginning and becomes exponentially slower. 
  We used a <a href="https://geography.wisc.edu/maplibrary/the-robinson-projection/" target="_blank">Robinson projection</a> centered around 50°E to show a suitable trade-off between level of distortion and visual appeal. 
   
-![Fast animation of human tool use](/lithics/road_lithics3Ma-20ka_EXP_30sec_30fps_loop.gif)
+![Fast animation of human lithic tool use](/lithics/road_lithics3Ma-20ka_EXP_30sec_30fps_loop.gif)
  
  
  *Occurence of lithic tools between 3 Ma and 10 ka*
