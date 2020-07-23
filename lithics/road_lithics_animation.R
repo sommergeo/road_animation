@@ -5,7 +5,7 @@ library(readr)
 library(ggthemes)
 library(gganimate)
 library(gifski)
-library(ggalt)
+#library(ggalt) # unused, since coord_proj() doesn't work anymore
 library(rnaturalearth)
 library(patchwork)
 
@@ -26,7 +26,8 @@ world_shape <- ne_countries(scale = 110, type = 'countries', continent = c('euro
 
 world <- ggplot() +
   borders(world_shape, colour = 'grey', fill = 'grey') +
-  coord_proj("+proj=robin +lon_0=50", xlim = c(-20, 180), ylim = c(-50, 90)) +
+  #coord_proj("+proj=robin +lon_0=50", xlim = c(-20, 180), ylim = c(-50, 90)) + # deprecated, use ggplot internal function coord_map() instead!
+  coord_map(projection="mollweide", orientation=c(90,50,0), xlim=c(-20,180), ylim = c(-50, 90))+
   theme_map()
 plot(world)
 
