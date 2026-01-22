@@ -3,7 +3,7 @@
     "path": "C:/data/proj/ROAD/road_animation/road_animation.R",
     "project_path": "road_animation.R",
     "type": "r_source",
-    "hash": "2737295868",
+    "hash": "2387459047",
     "contents": "",
     "dirty": false,
     "created": 1737551464151.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "34,0",
-        "scrollLine": "13"
+        "cursorPosition": "10,39",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1737558981,
+    "lastKnownWriteTime": 1769076583,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1737558981193,
+    "last_content_update": 1769076583186,
     "read_only": false,
     "read_only_alternatives": []
 }
